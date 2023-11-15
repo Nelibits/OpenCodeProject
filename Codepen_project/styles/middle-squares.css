@@ -1,0 +1,93 @@
+.middle-squares {
+    margin: 0px -8px;
+    height: 366px;
+    background: linear-gradient(160deg, #8d99a5, 25%, black) ;
+    /*gap: 121px;*/
+    color: white;
+    display: flex; 
+    justify-content: space-between;
+    align-items: center;
+    /*font-family: 'Josefin Sans', sans-serif;
+    box-shadow: inset 0px -26px 79px -8px rgba(0, 0, 0, 0.58);*/
+}
+
+.middle-squares > .codepen-square {
+    padding: 0px 70px 0px 50px;
+    margin-top: -30px;
+}
+
+ /* middle square button styles*/
+
+ .middle-squares > .codepen-square > .parr1 {
+    font-size: 1.6em;
+}
+
+.middle-squares > .codepen-square > .parr2 {
+    font-size: 1.3em;
+    color: #A9A9A9;
+}
+
+.middle-squares > .codepen-square > .square-buttons {
+    gap: 5px;
+    display: flex;
+    justify-content: left;
+}
+
+
+.middle-squares > .codepen-square > .square-buttons > .btn {
+    padding: 8px 26px;
+    font-size: 1.6em;
+    border: transparent;
+    border-radius: 2px;
+}
+
+.middle-squares > .codepen-square > .square-buttons :nth-child(1) {
+background-color: green;
+}
+
+.middle-squares > .codepen-square > .square-buttons :nth-child(2) {
+    background-color: black;
+    color: white;
+}
+
+.middle-squares > .browser-square {
+    font-weight: bold;
+}
+
+.middle-squares > .browser-square p {
+    margin-bottom: 4px;
+}
+
+#codepen-projects {
+    color: #73CBF2;
+}
+
+.middle-squares > .browser-square img {
+    width: 366px;
+    height: 100%;
+}
+
+.square-bars {
+    height: 42px;
+    background-color: #2c2c2c;
+    margin: 0px -8px;
+    color: white;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.square-bars > .square-bar-codepen {
+    border: 1px solid rgb(175, 173, 173);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#teams, #education, #privacy, #writing {
+    text-transform: uppercase;
+    font-family: 'Voltaire', sans-serif;
+    font-weight: bold;
+    font-size: 1.25em;
+    padding: 0px;
+}
+
